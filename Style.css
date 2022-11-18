@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+header{grid-column: 1/2;}
+.logo{grid-column: 3/4;}
+
+.ab1 {grid-column: 2/4;}
+
+.projects {grid-column: 1/2;}
+
+.Diss {grid-column: 2/4;}
+
+.bottom {grid-column: 1/4;}
+
+footer {grid-column: 1/4;}
+
+
+
+
+
+
+
+p {color:black; background-color: rgb(130, 138, 143);}
+
+body {color:rgb(158, 27, 50); background-color:rgb(130, 138, 143);}
+
+h1 {color:rgb(158, 27, 50)}
+
+h2 {color:rgb(158, 27, 50)}
+
+footer {color:black}
+
+.command {font-family: 'Amatic SC', cursive; font-size: xx-large; grid-column: 1/4;}
+
